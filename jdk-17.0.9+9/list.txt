@@ -1,0 +1,2106 @@
+"https://github.com/adoptium/temurin17-binaries/releases/expanded_assets/jdk-17.0.9+9",
+
+2025-11-21
+                
+                
+                    OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                    OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                
+                    OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                
+                    OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                
+                    OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                
+                    OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-debugimage_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip
+                    OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    OpenJDK17U-debugimage_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk-release-notes_17.0.9_9.json
+                    OpenJDK17U-jdk-release-notes_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk-sources_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk-sources_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk-sources_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk-sources_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk-sources_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk-sources_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk-sources_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk-sources_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg.json
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg.sig
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.pkg.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg.json
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg.sig
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.pkg.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jdk_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi.json
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi.sha256.txt
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi.sig
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.msi.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    OpenJDK17U-jdk_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg.json
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg.sig
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.pkg.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg.json
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg.sig
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.pkg.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-jre_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi.json
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi.sha256.txt
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi.sig
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.msi.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    OpenJDK17U-jre_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_aarch64_linux_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_aarch64_linux_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_aarch64_linux_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_aarch64_linux_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_aarch64_linux_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_aarch64_linux_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_aarch64_mac_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_aarch64_mac_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_aarch64_mac_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_aarch64_mac_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_aarch64_mac_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_aarch64_mac_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_arm_linux_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_arm_linux_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_arm_linux_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_arm_linux_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_arm_linux_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_arm_linux_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_ppc64le_linux_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_ppc64le_linux_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_ppc64le_linux_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_ppc64le_linux_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_ppc64le_linux_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_ppc64le_linux_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_s390x_linux_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_s390x_linux_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_s390x_linux_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_s390x_linux_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_s390x_linux_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_s390x_linux_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_alpine-linux_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_x64_alpine-linux_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_alpine-linux_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_x64_alpine-linux_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_alpine-linux_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_x64_alpine-linux_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_linux_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_x64_linux_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_linux_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_x64_linux_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_linux_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_x64_linux_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_mac_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_x64_mac_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_mac_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_x64_mac_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x64_mac_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_x64_mac_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x86-32_windows_hotspot_17.0.9_9-metadata.json
+                    OpenJDK17U-sbom_x86-32_windows_hotspot_17.0.9_9-metadata.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x86-32_windows_hotspot_17.0.9_9.json
+                    OpenJDK17U-sbom_x86-32_windows_hotspot_17.0.9_9.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-sbom_x86-32_windows_hotspot_17.0.9_9.json.sig
+                    OpenJDK17U-sbom_x86-32_windows_hotspot_17.0.9_9.json.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs-glibc_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs-glibc_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs-glibc_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs-glibc_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs-musl_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-static-libs_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip
+                    OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    OpenJDK17U-static-libs_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_aarch64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_aarch64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_arm_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_ppc64le_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_s390x_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_x64_alpine-linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_x64_linux_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz
+                    OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    OpenJDK17U-testimage_x64_mac_hotspot_17.0.9_9.tar.gz.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip
+                    OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip.json
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip.sha256.txt
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    OpenJDK17U-testimage_x86-32_windows_hotspot_17.0.9_9.zip.sig
+                    
+                
+            
+        
+        
+            
+                
+                /adoptium/temurin17-binaries/archive/refs/tags/jdk-17.0.9+9.zip
+                    Source code
+                    
+                
+            
+        
+            
+                
+                /adoptium/temurin17-binaries/archive/refs/tags/jdk-17.0.9+9.tar.gz
+                    Source code
+                    
+                
+            
