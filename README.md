@@ -1,7 +1,7 @@
 # About
 
-A selection mirror of [temurin17-binaries](https://github.com/adoptium/temurin17-binaries),
-as the GWF behavior is wierd while downloading jre etc., with python scripts. 
+A mirror of selection of [temurin17-binaries](https://github.com/adoptium/temurin17-binaries),
+as the GWF behavior is weird while downloading jre etc., with python scripts. 
 
 # [temurin17-binaries](https://github.com/adoptium/temurin17-binaries)
 The home for releases and nightlies for all Temurin17 variants and platforms
