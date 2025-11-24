@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build" 
+
+[project]
+name = "jre-mirror"
+version = "0.0.1"
+authors = [
+  { name="Ody Z", email="odys.zhou@gmail.com" },
+]
+description = "A simple tool to deploy jre binary releases mirror."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typing_extensions>=4.0.0"
+    "semantics.py3>=0.3.6"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {text = """Copyright (c) 2025 Ody Z. All rights reserved.
+
+This work is licensed under the terms of the MIT license.
+For a copy, see <https://opensource.org/licenses/MIT>.""" }
+
+[project.optional-dependencies]
+testing = [
+    "pytest",
+    "requests"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jre_mirror"]
+
+[project.urls]
+Homepage = "https://github.com/odys-z/JRE-Mirror"
+Issues = "https://github.com/odys-z/JRE-Mirror/issues"
+
