@@ -9,6 +9,7 @@
     "OpenJDK17U-jre_x64_linux_hotspot_17.0.17_10.tar.gz"
   ],
   "backup": [
+    "OpenJDK17U-jdk_x64_linux_hotspot_17.0.17_10.tar.gz.sha256.txt",
     "OpenJDK17U-jre_x64_windows_hotspot_17.0.17_10.zip",
     "OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.17_10.tar.gz",
     "OpenJDK17U-jre_x64_linux_hotspot_17.0.17_10.tar.gz"

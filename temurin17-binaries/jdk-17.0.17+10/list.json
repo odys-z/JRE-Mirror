@@ -1,10 +1,11 @@
 { "type": "io.oz.invoke.Temurin17Release",
   "src" : "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.17%2B10",
   "date": "2025-11-24",
+  "proxy": "proxy.json",
   "path": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10",
-  "resources": [
-  ],
-  "lazy": [
+  "resources": ["OpenJDK17U-jre_x64_windows_hotspot_17.0.17_10.zip"],
+  "mirroring": ["OpenJDK17U-jre_x64_windows_hotspot_17.0.17_10.zip"],
+  "backup": [
     "OpenJDK17U-jre_x64_windows_hotspot_17.0.17_10.zip",
     "OpenJDK17U-static-libs-glibc_x64_linux_hotspot_17.0.17_10.tar.gz",
     "OpenJDK17U-jre_x64_linux_hotspot_17.0.17_10.tar.gz"

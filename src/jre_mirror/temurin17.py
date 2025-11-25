@@ -1,18 +1,19 @@
+import gzip
 import platform
+import os
+import shutil
 import urllib.request
 import zipfile
-import os
+import time
 from pathlib import Path
 
 from dataclasses import dataclass
 from typing import Callable, cast
 from urllib import request
-from urllib.parse import ParseResult
 
 from anson.io.odysz.anson import Anson, AnsonException
 from anson.io.odysz.common import LangExt
 from semanticshare.io.oz.invoke import JRERelease, Proxy
-from urllib3 import proxy_from_url
 
 
 @dataclass
@@ -35,10 +36,13 @@ class Temurin17Release(JRERelease):
 
     mirroring: list[str]
 
-    proxy: str
+    backup: list[str]
 
     def __init__(self):
         super().__init__()
+        self.resources = []
+        self.mirroring = []
+        self.backup = []
 
     def mirror(self):
         pass
@@ -46,9 +50,10 @@ class Temurin17Release(JRERelease):
     def get_resources(self):
         pass
 
-    def jre(self):
+    def set_jre(self):
         '''
-        :return: expected-itme, existing-flag, synchronize-flag (wait | done | NA)
+        Find out what jre is needed, push into mirroring
+        :return: expected-itme, is-in-resources, is-in-mirroring
         the jre item needed by current environment
         '''
         system = platform.system()
@@ -73,20 +78,28 @@ class Temurin17Release(JRERelease):
         else:
             raise RuntimeError(f"Unsupported arch: {machine}")
 
-        download_url = f'https://github.com/{self.path}'
 
-        build, plus = "17.0.9", "9"
-        zip_gz = f"OpenJDK17U-jre_{arch}_{os_name}_hotspot_{build}_{plus}.{ext}"
-        exp_item = f"{download_url}/jdk-{build}%2B{plus}/{zip_gz}"
-        exists = exp_item in self.resources
-        wait = False if exists else f'wait:{exp_item}' in self.resources
-        return exp_item, exists, wait
+        # build, plus = "17.0.9", "9"
+        release = "17.0.17_10"
+        zip_gz = f"OpenJDK17U-jre_{arch}_{os_name}_hotspot_{release}.{ext}"
+        # download_url = f'https://github.com/{self.path}'
+        # exp_item = f"{download_url}/jdk-{build}%2B{plus}/{zip_gz}"
+        # exp_item = f"{self.path}/{zip_gz}"
+        
+        if not hasattr(self, 'mirroring') or self.mirroring is None:
+            self.mirroring = []
+        inmirror = zip_gz in self.mirroring
+        if not inmirror:
+            self.mirroring.append(zip_gz)
+        return zip_gz, zip_gz in self.resources, inmirror
 
 
 class TemurinMirror():
     '''
     Thanks to Grok!
     '''
+
+    bins = 'bins'
 
     release: Temurin17Release
 
@@ -122,10 +135,11 @@ class TemurinMirror():
 
         filename = url.split("/")[-1]
         zip_path = target_dir / filename
+        self.check_clean(zip_path)
 
         if not zip_path.exists():
             print(f"Downloading JRE for {platform.system()} {platform.machine()}\n{url} ...")
-            proxy = None if LangExt.isblank(self.release.proxy) \
+            proxy = None if not hasattr(self.release, 'proxy') or LangExt.isblank(self.release.proxy) \
                     else cast(Proxy, Anson.from_file(self.release.proxy))
             try:
                 # TODO support breakpoints
@@ -141,11 +155,15 @@ class TemurinMirror():
                 print(e)
 
         if extract_check:
+            target_dir = Path.joinpath(target_dir, filename + '-extract')
+            try: shutil.rmtree(target_dir)
+            except: pass
+
             print("Extracting...")
             if filename.endswith(".zip"):
                 with zipfile.ZipFile(zip_path, 'r') as z:
                     z.extractall(target_dir)
-            else:
+            elif filename.endswith(".gz"):
                 import tarfile
                 with tarfile.open(zip_path, 'r:gz') as t:
                     t.extractall(target_dir)
@@ -155,7 +173,53 @@ class TemurinMirror():
                 #if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
                 if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
                     return Path(root)
-            raise RuntimeError("JRE extraction failed")
+
+            if filename.endswith(".zip") or filename.endswith(".gz"):
+                raise RuntimeError("JRE extraction failed")
+
+    def check_clean(self, filepath: Path):
+        if filepath.suffix == ".zip":
+            try:
+                with zipfile.ZipFile(filepath, 'r') as zf:
+                    bad_file = zf.testzip()
+                    if bad_file:
+                        print(f"Error: The following file in the zip is corrupt: {bad_file}")
+                        return False
+                    else:
+                        return True
+            except:
+                try: os.remove(filepath) # TODO resume breakpoint
+                except: pass
+                return False
+
+        elif ".tar" in filepath.suffixes and ".gz" in filepath.suffixes:
+            try:
+                with tarfile.open(filepath, 'r:gz') as tar:
+                    tar.getmembers()
+                print(f"'{filepath}' is a valid Tar Gzip file.")
+            except:
+                try: os.remove(filepath)
+                except: pass
+                return False
+
+
+        elif filepath.suffix == ".gz":
+            try:
+                chunk_size = 1024
+                if not os.path.exists(filepath):
+                    print(f"Error: The file was not found. {filepath}")
+                    return False
+
+                with gzip.open(filepath, 'rb') as f:
+                    while f.read(chunk_size):
+                        pass
+                return True
+            except:
+                try: os.remove(filepath)
+                except: pass
+                return False
+
+        return False
 
     def lock(self, list_json):
         if not LangExt.isblank(list_json):
@@ -172,3 +236,18 @@ class TemurinMirror():
         if not LangExt.suffix(list_json, '.lock') and os.path.exists(f'{list_json}.lock'):
             try: os.remove(f'{list_json}.lock')
             except: pass
+
+    @classmethod
+    def sync(cls, list_json):
+        Anson.java_src('semanticshare')
+        res = cast(Temurin17Release, Anson.from_file(list_json))
+        mirror = TemurinMirror(res)
+        try:
+            while not mirror.lock(list_json):
+                time.sleep(0.5)
+            mirror.resolve_to(TemurinMirror.bins, extract_check=True)
+            mirror.release.save(list_json)
+        finally:
+            mirror.unlock(list_json)
+
+        return res
