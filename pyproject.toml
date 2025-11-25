@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jre-mirror"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Ody Z", email="odys.zhou@gmail.com" },
 ]
@@ -13,8 +13,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "typing_extensions>=4.0.0",
-    "semantics.py3==0.3.6",
-    "anson.py3>=0.3.6"
+    "semantics.py3==0.3.7",
+    "anson.py3>=0.3.7"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

@@ -1,11 +1,7 @@
 import os.path
 import shutil
 import unittest
-from typing import cast
 
-from anson.io.odysz.anson import Anson
-
-from semanticshare.io.oz.invoke import Temurin17Release
 from src.jre_mirror.temurin17 import TemurinMirror
 
 class Temurin17Test(unittest.TestCase):
