@@ -32,13 +32,16 @@ class TemurinMirror():
                 prog_hook: Callable[[int, int, int], None] = None):
         resolved = []
         for m in self.release.mirroring:
-            self.download_and_extract(url=f'{self.release.path}/{m}',
-                        target_dir=bins, extract_check=extract_check, prog_hook=prog_hook)
+            last_ext_path = self.download_and_extract(
+                            url=f'{self.release.path}/{m}',
+                            target_dir=bins,
+                            extract_check=extract_check, prog_hook=prog_hook)
             resolved.append(m)
         else:
             for r in resolved:
                 if r not in self.release.resources:
                     self.release.resources.append(r)
+        return extract_check, last_ext_path
 
     def download_and_extract(self, url: str,
                              target_dir: str="jre-download",
@@ -73,7 +76,7 @@ class TemurinMirror():
                            reporthook=progress_hook if prog_hook is None else prog_hook)
 
             except IOError as e:
-                print(e)
+                print(e, f'proxy: {proxy}')
 
         if extract_check:
             target_dir = Path.joinpath(target_dir, filename + '-extract')

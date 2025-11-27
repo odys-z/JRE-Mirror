@@ -79,7 +79,7 @@ And in proxy.json, configure the proxy string following the general proxy string
 format of Python:
 
 ```
-   { "type": "io.oz.invoke.Proxy",
+   { "type": "io.oz.edge.Proxy",
      "http": "http://user:passwd@127.0.0.1:port",,
      "https":"http://user:passwd@127.0.0.1:port"
    }
