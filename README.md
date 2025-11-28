@@ -1,3 +1,7 @@
+
+[![PyPI version](https://img.shields.io/pypi/v/jre-mirror.svg)](https://pypi.org/project/jre-mirror)
+[![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
 # About
 
 A distribution tool of a selection of
@@ -7,7 +11,7 @@ as the GWF behavior is weird while downloading jre etc., with Python scripts.
 # How To
 
 ```
-    Upto 0.1.0, JRE-Mirror is only tested on Ubuntu 22.0.4 and Python 3.12 
+    JRE-Mirror requires Python 3.9 and above.
 ```
 
 The sub-folders in temurin17-binaries can be deployed as a website root path.
@@ -30,7 +34,7 @@ Start the jre-mirror Python module to download the mirrors.
     python3 -m venv .env
     source .env/bin/activate
     pip install jre-mirror
-    python3 -m jre-mirror
+    python3 -m jre_mirror
 ```
 
 Now configure the resources a Nginx static site or, If you need more fine control,

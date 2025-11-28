@@ -15,7 +15,7 @@ from anson.io.odysz.common import LangExt
 from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release
 
 
-class TemurinMirror():
+class TemurinMirror:
     '''
     Thanks to Grok!
     '''
@@ -31,6 +31,7 @@ class TemurinMirror():
                 extract_check: bool = False,
                 prog_hook: Callable[[int, int, int], None] = None):
         resolved = []
+        last_ext_path = None
         for m in self.release.mirroring:
             last_ext_path = self.download_and_extract(
                             url=f'{self.release.path}/{m}',
