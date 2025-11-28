@@ -13,8 +13,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "typing_extensions>=4.0.0",
-    "semantics.py3==0.3.8",
-    "anson.py3>=0.3.7"
+    "semantics.py3==0.3.9",
+    "anson.py3>=0.3.8"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
