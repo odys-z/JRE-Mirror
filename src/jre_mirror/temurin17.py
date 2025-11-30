@@ -3,6 +3,7 @@ import platform
 import os
 import shutil
 import tarfile
+import time
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -14,6 +15,14 @@ from anson.io.odysz.anson import Anson, AnsonException
 from anson.io.odysz.common import LangExt
 from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release
 
+def guess_jretree(target_root):
+    for root, dirs, _ in os.walk(target_root):
+        # if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
+        if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
+            return Path(root)
+
+    if filename.endswith(".zip") or filename.endswith(".gz"):
+        raise RuntimeError("JRE extraction failed")
 
 class TemurinMirror:
     '''
@@ -93,16 +102,23 @@ class TemurinMirror:
                 with tarfile.open(zip_path, 'r:gz') as t:
                     t.extractall(target_dir)
 
-            # Find the actual jre folder (Adoptium extracts to jdk-xxx-jre)
-            for root, dirs, _ in os.walk(target_dir):
-                #if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
-                if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
-                    return Path(root)
+            guess_jretree(target_dir)
 
-            if filename.endswith(".zip") or filename.endswith(".gz"):
-                raise RuntimeError("JRE extraction failed")
+            # Find the actual jre folder (Adoptium extracts to jdk-xxx-jre)
+            # for root, dirs, _ in os.walk(target_dir):
+            #     #if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
+            #     if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
+            #         return Path(root)
+            #
+            # if filename.endswith(".zip") or filename.endswith(".gz"):
+            #     raise RuntimeError("JRE extraction failed")
 
     def check_clean(self, filepath: Path):
+        '''
+        Verify the zip / tar.gz file is a valid package. If not, remove the file.
+        :param filepath:
+        :return:
+        '''
         if filepath.suffix == ".zip":
             try:
                 with zipfile.ZipFile(filepath, 'r') as zf:
