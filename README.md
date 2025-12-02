@@ -32,16 +32,16 @@ Start the jre-mirror Python module to download the mirrors.
     # (Tested on Ubuntu 24.0.4)
     cd JRE-Mirror/temurin17-binaries/jdk-17.0.17+10
     python3 -m venv .env
-    source .env/bin/activate
+    source .env/bin/activate # For windows: source .env/Scripts/activate
     pip install jre-mirror
     python3 -m jre_mirror
 ```
 
-Now configure the resources a Nginx static site or, If you need more fine control,
-use the [Html-service](https://github.com/odys-z/html-service) as the web service,
-with which a simple Windows service can be setup as a static web site.
+Now configure the resources a Nginx static site or, If you need more fine control, by
+starting a feature requirement, use the [Html-service](https://github.com/odys-z/html-service)
+as the web service, with which a simple Windows service can be setup as a static web site.
 
-A sample configuration of html-service's configuration can be:
+A sample of html-service's configuration, WEB-INF/html-service.json, can be:
 
 ```
     { "type": "io.oz.srv.WebConfig",
@@ -53,7 +53,7 @@ A sample configuration of html-service's configuration can be:
     }
 ```
 
-Restart the service, if you followed the steps in the README of html-service.
+Restart the service, if you followed the steps in the README of html-service. E.g.
 
 ```
     sudo systemctl restart html-service.service
@@ -79,17 +79,17 @@ To configure the proxy, in list.json, specify the configuration file path:
     }
 ```
 
-And in proxy.json, configure the proxy string following the general proxy string
+And in proxy.json, configure the proxy string following the general proxy
 format of Python:
 
 ```
    { "type": "io.oz.edge.Proxy",
-     "http": "http://user:passwd@127.0.0.1:port",,
+     "http": "http://user:passwd@127.0.0.1:port",
      "https":"http://user:passwd@127.0.0.1:port"
    }
 ```
 
-#### Note: all the *type* fields in json files are neccessary.
+#### Note: All the *type* fields in json files are neccessary.
 
 # Credits:
 

@@ -20,9 +20,9 @@ def guess_jretree(target_root):
         # if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
         if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
             return Path(root)
-
-    if filename.endswith(".zip") or filename.endswith(".gz"):
-        raise RuntimeError("JRE extraction failed")
+    return None
+    # if filename.endswith(".zip") or filename.endswith(".gz"):
+    #     raise RuntimeError("JRE extraction failed")
 
 class TemurinMirror:
     '''
@@ -93,7 +93,7 @@ class TemurinMirror:
             try: shutil.rmtree(target_dir)
             except: pass
 
-            print("Extracting...")
+            print(f"Extracting {filename} ...")
             if filename.endswith(".zip"):
                 with zipfile.ZipFile(zip_path, 'r') as z:
                     z.extractall(target_dir)
@@ -102,16 +102,10 @@ class TemurinMirror:
                 with tarfile.open(zip_path, 'r:gz') as t:
                     t.extractall(target_dir)
 
-            guess_jretree(target_dir)
-
-            # Find the actual jre folder (Adoptium extracts to jdk-xxx-jre)
-            # for root, dirs, _ in os.walk(target_dir):
-            #     #if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
-            #     if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
-            #         return Path(root)
-            #
-            # if filename.endswith(".zip") or filename.endswith(".gz"):
-            #     raise RuntimeError("JRE extraction failed")
+            ext_root = guess_jretree(target_dir)
+            if ext_root is None and (filename.endswith(".zip") or filename.endswith(".gz")):
+                raise RuntimeError("JRE extraction failed")
+            return ext_root
 
     def check_clean(self, filepath: Path):
         '''
