@@ -1,3 +1,7 @@
+
+[![PyPI version](https://img.shields.io/pypi/v/jre-mirror.svg)](https://pypi.org/project/jre-mirror)
+[![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
 # About
 
 A distribution tool of a selection of
@@ -7,7 +11,7 @@ as the GWF behavior is weird while downloading jre etc., with Python scripts.
 # How To
 
 ```
-    Upto 0.1.0, JRE-Mirror is only tested on Ubuntu 22.0.4 and Python 3.12 
+    JRE-Mirror requires Python 3.9 and above.
 ```
 
 The sub-folders in temurin17-binaries can be deployed as a website root path.
@@ -28,16 +32,16 @@ Start the jre-mirror Python module to download the mirrors.
     # (Tested on Ubuntu 24.0.4)
     cd JRE-Mirror/temurin17-binaries/jdk-17.0.17+10
     python3 -m venv .env
-    source .env/bin/activate
+    source .env/bin/activate # For windows: source .env/Scripts/activate
     pip install jre-mirror
-    python3 -m jre-mirror
+    python3 -m jre_mirror
 ```
 
-Now configure the resources a Nginx static site or, If you need more fine control,
-use the [Html-service](https://github.com/odys-z/html-service) as the web service,
-with which a simple Windows service can be setup as a static web site.
+Now configure the resources a Nginx static site or, If you need more fine control, by
+starting a feature requirement, use the [Html-service](https://github.com/odys-z/html-service)
+as the web service, with which a simple Windows service can be setup as a static web site.
 
-A sample configuration of html-service's configuration can be:
+A sample of html-service's configuration, WEB-INF/html-service.json, can be:
 
 ```
     { "type": "io.oz.srv.WebConfig",
@@ -49,7 +53,7 @@ A sample configuration of html-service's configuration can be:
     }
 ```
 
-Restart the service, if you followed the steps in the README of html-service.
+Restart the service, if you followed the steps in the README of html-service. E.g.
 
 ```
     sudo systemctl restart html-service.service
@@ -75,12 +79,12 @@ To configure the proxy, in list.json, specify the configuration file path:
     }
 ```
 
-And in proxy.json, configure the proxy string following the general proxy string
+And in proxy.json, configure the proxy string following the general proxy
 format of Python:
 
 ```
    { "type": "io.oz.edge.Proxy",
-     "http": "http://user:passwd@127.0.0.1:port",,
+     "http": "http://user:passwd@127.0.0.1:port",
      "https":"http://user:passwd@127.0.0.1:port"
    }
 ```
