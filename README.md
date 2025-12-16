@@ -89,7 +89,7 @@ format of Python:
    }
 ```
 
-#### Note: All the *type* fields in json files are neccessary.
+#### Note: All the *type* fields in json files are necessary.
 
 # Credits:
 
