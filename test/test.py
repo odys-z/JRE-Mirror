@@ -18,4 +18,4 @@ test_suite = test_loader.discover(start_dir='.', pattern='t_*.py')
 
 if __name__ == '__main__':
     unittest.TextTestRunner(verbosity=2).run(test_suite)
-    print('OK: Semantics.py3/test.test')
+    print('OK: JRE-Mirror')

@@ -5,3 +5,6 @@ dist
 bins
 **/proxy.json
 __pycache__
+
+re_mirror/edge_jre.py
+ 

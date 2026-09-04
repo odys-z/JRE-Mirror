@@ -8,11 +8,11 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-from typing import Callable, cast
+from typing import Callable, cast, Union, Optional
 from urllib import request
 
 from anson.io.odysz.anson import Anson, AnsonException
-from anson.io.odysz.common import LangExt
+from anson.io.odysz.common import LangExt, check_package
 from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release
 
 def guess_jretree(target_root):
@@ -22,16 +22,11 @@ def guess_jretree(target_root):
     :return:
     '''
     for root, dirs, _ in os.walk(target_root):
-        # if "bin/java" in [os.path.join(root, d, "bin/java") for d in dirs]:
         if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
             return Path(root)
     return None
 
 class TemurinMirror:
-    '''
-    Thanks to Grok!
-    '''
-
     bins = 'bins'
 
     release: Temurin17Release
@@ -41,7 +36,7 @@ class TemurinMirror:
 
     def resolve_to(self, bins: str,
                 extract_check: bool = False,
-                prog_hook: Callable[[int, int, int], None] = None):
+                prog_hook: Optional[Callable[[int, int, Union[int, float]], None]] = None):
         resolved = []
         last_ext_path = None
         for m in self.release.mirroring:
@@ -59,7 +54,7 @@ class TemurinMirror:
     def download_and_extract(self, url: str,
                              target_dir: str="jre-download",
                              extract_check: bool=False,
-                             prog_hook: Callable[[int, int, int], None]=None):
+                             prog_hook: Optional[Callable[[int, int, float], None]]=None):
 
         # def progress_hook(blocknum, blocksize, totalsize):
         #     read = blocknum * blocksize
@@ -69,10 +64,10 @@ class TemurinMirror:
 
         start_time = time.monotonic()
         last_print = [0.0]  # mutable closure cell
-        def progress_hook(blocknum, blocksize, totalsize):
+        def progress_hook(blocknum: int, blocksize: int, totalsize: float):
             now = time.monotonic()
             # throttle: only print every 0.5s OR on the final block, to avoid spamming
-            read = blocknum * blocksize
+            read:float = blocknum * blocksize
             is_done = totalsize > 0 and read >= totalsize
             if now - last_print[0] < 0.5 and not is_done:
                 return
@@ -110,16 +105,23 @@ class TemurinMirror:
             proxy = None if not hasattr(self.release, 'proxy') or LangExt.isblank(self.release.proxy) \
                     else cast(Proxy, Anson.from_file(self.release.proxy))
             try:
-                # TODO support breakpoints
-                if proxy is not None:
-                    proxy_handler = request.ProxyHandler({'http': proxy.http, 'https': proxy.https})
-                    opener = urllib.request.build_opener(proxy_handler)
-                    request.install_opener(opener)
+                if proxy is not None and check_package('edge_odys'):
+                    from edge_odys.xdownload import XDownloader
+                    xdown = XDownloader()
+                    xdown.download(url, zip_path,
+                                   proxy_url=proxy.http, proxys_url=proxy.https,
+                                   prog_hook=prog_hook)
+                else:
+                    if proxy is not None:
+                        proxy_handler = request.ProxyHandler({'http': proxy.http, 'https': proxy.https})
+                        opener = urllib.request.build_opener(proxy_handler)
+                        request.install_opener(opener)
 
-                request.urlretrieve(url, zip_path,
+                    # Original single-stream fallback path.
+                    request.urlretrieve(url, zip_path,
                            reporthook=progress_hook if prog_hook is None else prog_hook)
 
-            except IOError as e:
+            except (IOError, OSError, RuntimeError) as e:
                 print(f"Failed to download {url}: {e}")
                 print(f'PROXY: {proxy}')
 
