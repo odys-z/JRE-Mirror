@@ -61,11 +61,42 @@ class TemurinMirror:
                              extract_check: bool=False,
                              prog_hook: Callable[[int, int, int], None]=None):
 
+        # def progress_hook(blocknum, blocksize, totalsize):
+        #     read = blocknum * blocksize
+        #     if totalsize > 0:
+        #         percent = min(100, read * 100 // totalsize)
+        #         print(f"\rDownloading... {percent}%", end="", flush=True)
+
+        start_time = time.monotonic()
+        last_print = [0.0]  # mutable closure cell
         def progress_hook(blocknum, blocksize, totalsize):
+            now = time.monotonic()
+            # throttle: only print every 0.5s OR on the final block, to avoid spamming
             read = blocknum * blocksize
+            is_done = totalsize > 0 and read >= totalsize
+            if now - last_print[0] < 0.5 and not is_done:
+                return
+            last_print[0] = now
+
+            elapsed = max(now - start_time, 0.001)
+            speed = read / elapsed  # bytes/sec, average so far
+            speed_kb = speed / 1024
+
             if totalsize > 0:
                 percent = min(100, read * 100 // totalsize)
-                print(f"\rDownloading... {percent}%", end="")
+                remaining = max(totalsize - read, 0)
+                eta = remaining / speed if speed > 0 else float('inf')
+                eta_str = f"{int(eta // 60)}m{int(eta % 60):02d}s" if eta != float('inf') else "?"
+                print(f"\rDownloading... {percent}%  "
+                    f"{read/1024/1024:.1f}/{totalsize/1024/1024:.1f} MB  "
+                    f"{speed_kb:.1f} KB/s  ETA {eta_str}   ",
+                    end="", flush=True)
+            else:
+                print(f"\rDownloading... {read/1024/1024:.1f} MB  {speed_kb:.1f} KB/s   ",
+                    end="", flush=True)
+
+            if is_done:
+                print()  # newline once complete
 
         target_dir = Path(target_dir)
         target_dir.mkdir(exist_ok=True)
@@ -89,7 +120,8 @@ class TemurinMirror:
                            reporthook=progress_hook if prog_hook is None else prog_hook)
 
             except IOError as e:
-                print(e, f'proxy: {proxy}')
+                print(f"Failed to download {url}: {e}")
+                print(f'PROXY: {proxy}')
 
         if extract_check:
             target_dir = Path.joinpath(target_dir, filename + '-extract')
