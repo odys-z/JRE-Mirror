@@ -13,18 +13,20 @@ from urllib import request
 
 from anson.io.odysz.anson import Anson, AnsonException
 from anson.io.odysz.common import LangExt, check_package
-from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release
+from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release, extract_check_jretree
 
+"""
 def guess_jretree(target_root):
     '''
-    Find java bin in target root.
+    Find java bin in target root. (only verified against JRE 17 tree)
     :param target_root:
-    :return:
+    :return: root path of the extracted JRE tree, or None if not found.
     '''
     for root, dirs, _ in os.walk(target_root):
         if "bin" in dirs and "lib" in dirs and "NOTICE" in _ and "release" in _:
             return Path(root)
     return None
+"""
 
 class TemurinMirror:
     bins = 'bins'
@@ -37,6 +39,13 @@ class TemurinMirror:
     def resolve_to(self, bins: str,
                 extract_check: bool = False,
                 prog_hook: Optional[Callable[[int, int, Union[int, float]], None]] = None):
+        '''
+        resolve the mirroring resources to the target directory, downloading and extracting as needed.
+        :param bins: target directory to place the resolved resources.
+        :param extract_check: if True, will extract the downloaded resources and check for a valid JRE tree.
+        :param prog_hook: optional progress hook for download progress reporting.
+        :return: a tuple of (extract_check, last_ext_path) where last_ext_path is the path to the last extracted JRE tree, or None if no extraction was performed.
+        '''
         resolved = []
         last_ext_path = None
         for m in self.release.mirroring:
@@ -55,12 +64,6 @@ class TemurinMirror:
                              target_dir: str="jre-download",
                              extract_check: bool=False,
                              prog_hook: Optional[Callable[[int, int, float], None]]=None):
-
-        # def progress_hook(blocknum, blocksize, totalsize):
-        #     read = blocknum * blocksize
-        #     if totalsize > 0:
-        #         percent = min(100, read * 100 // totalsize)
-        #         print(f"\rDownloading... {percent}%", end="", flush=True)
 
         start_time = time.monotonic()
         last_print = [0.0]  # mutable closure cell
@@ -126,6 +129,8 @@ class TemurinMirror:
                 print(f'PROXY: {proxy}')
 
         if extract_check:
+            return extract_check_jretree(zip_path, target_dir)
+            '''
             target_dir = Path.joinpath(target_dir, filename + '-extract')
             try: shutil.rmtree(target_dir)
             except: pass
@@ -134,7 +139,7 @@ class TemurinMirror:
             if filename.endswith(".zip"):
                 with zipfile.ZipFile(zip_path, 'r') as z:
                     z.extractall(target_dir)
-            elif filename.endswith(".gz"):
+            elif filename.endswith(".gz") or filename.endswith(".tgz"):
                 import tarfile
                 with tarfile.open(zip_path, 'r:gz') as t:
                     t.extractall(target_dir)
@@ -143,6 +148,7 @@ class TemurinMirror:
             if ext_root is None and (filename.endswith(".zip") or filename.endswith(".gz")):
                 raise RuntimeError("JRE extraction failed")
             return ext_root
+            '''
 
     def check_clean(self, filepath: Path):
         '''

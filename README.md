@@ -6,7 +6,7 @@
 
 A distribution tool of a selection of
 [temurin17-binaries](https://github.com/adoptium/temurin17-binaries),
-as the GWF behavior is weird while downloading jre etc., with Python scripts. 
+as the GFW behavior is weird while downloading jre etc., with Python scripts. 
 
 # How To
 
