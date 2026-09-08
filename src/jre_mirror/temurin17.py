@@ -13,7 +13,7 @@ from urllib import request
 
 from anson.io.odysz.anson import Anson, AnsonException
 from anson.io.odysz.common import LangExt, check_package
-from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release, extract_check_jretree
+from semanticshare.io.oz.edge import JRERelease, Proxy, Temurin17Release
 
 """
 def guess_jretree(target_root):
@@ -129,7 +129,7 @@ class TemurinMirror:
                 print(f'PROXY: {proxy}')
 
         if extract_check:
-            return extract_check_jretree(zip_path, target_dir)
+            return Temurin17Release.extract_check_jretree(zip_path, target_dir)
             '''
             target_dir = Path.joinpath(target_dir, filename + '-extract')
             try: shutil.rmtree(target_dir)
