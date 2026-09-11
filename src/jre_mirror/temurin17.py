@@ -64,6 +64,10 @@ class TemurinMirror:
                              target_dir: str="jre-download",
                              extract_check: bool=False,
                              prog_hook: Optional[Callable[[int, int, float], None]]=None):
+        '''
+        :prog_hook: None or (int, int, float) -> None. This is not compitable to
+            Synode.prompt.jreprog_hook(blocknum, blocksize, totalsize).
+        '''
 
         start_time = time.monotonic()
         last_print = [0.0]  # mutable closure cell
@@ -112,8 +116,7 @@ class TemurinMirror:
                     from edge_odys.xdownload import XDownloader
                     xdown = XDownloader()
                     xdown.download(url, zip_path,
-                                   proxy_url=proxy.http, proxys_url=proxy.https,
-                                   prog_hook=prog_hook)
+                                   proxy_url=proxy.http, proxys_url=proxy.https)
                 else:
                     if proxy is not None:
                         proxy_handler = request.ProxyHandler({'http': proxy.http, 'https': proxy.https})
